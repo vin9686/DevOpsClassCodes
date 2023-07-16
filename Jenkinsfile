@@ -2,6 +2,7 @@ pipeline{
 	agent any
 	tools{
 		maven 'vin-maven'
+	}
       stages{
            stage('Checkout'){
 	    
